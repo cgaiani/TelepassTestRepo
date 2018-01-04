@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Firefox 57.0,,2018-01-04 00:25:49,2018-01-04 00:28:39,"2m - 49,790s",FAILED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 1,Firefox 57.0,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 00:25:50,2018-01-04 00:26:04,"14,506s",FAILED
+callTestCase,Firefox 57.0,,2018-01-04 00:25:50,2018-01-04 00:25:56,"5,686s",PASSED
+callTestCase,Firefox 57.0,,2018-01-04 00:25:56,2018-01-04 00:25:57,"1,737s",PASSED
+verifyElementText,Firefox 57.0,,2018-01-04 00:25:57,2018-01-04 00:26:04,"6,671s",FAILED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 2,Firefox 57.0,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 00:26:04,2018-01-04 00:26:04,"0,120s",FAILED
+callTestCase,Firefox 57.0,,2018-01-04 00:26:04,2018-01-04 00:26:04,"0,118s",FAILED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 3,Firefox 57.0,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 00:26:04,2018-01-04 00:26:14,"9,652s",PASSED
+callTestCase,Firefox 57.0,,2018-01-04 00:26:04,2018-01-04 00:26:10,"5,862s",PASSED
+callTestCase,Firefox 57.0,,2018-01-04 00:26:10,2018-01-04 00:26:12,"1,398s",PASSED
+verifyElementText,Firefox 57.0,,2018-01-04 00:26:12,2018-01-04 00:26:14,"2,105s",PASSED
+closeBrowser,Firefox 57.0,,2018-01-04 00:26:14,2018-01-04 00:26:14,"0,286s",PASSED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 4,Firefox 57.0,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 00:26:14,2018-01-04 00:26:50,"35,626s",FAILED
+callTestCase,Firefox 57.0,,2018-01-04 00:26:14,2018-01-04 00:26:18,"4,383s",PASSED
+callTestCase,Firefox 57.0,,2018-01-04 00:26:18,2018-01-04 00:26:50,"31,241s",FAILED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 5,Firefox 57.0,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 00:26:50,2018-01-04 00:27:04,"14,751s",PASSED
+callTestCase,Firefox 57.0,,2018-01-04 00:26:50,2018-01-04 00:26:56,"5,995s",PASSED
+callTestCase,Firefox 57.0,,2018-01-04 00:26:56,2018-01-04 00:27:02,"6,383s",PASSED
+verifyElementText,Firefox 57.0,,2018-01-04 00:27:02,2018-01-04 00:27:04,"2,082s",PASSED
+closeBrowser,Firefox 57.0,,2018-01-04 00:27:04,2018-01-04 00:27:04,"0,283s",PASSED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 6,Firefox 57.0,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 00:27:05,2018-01-04 00:27:14,"9,773s",PASSED
+callTestCase,Firefox 57.0,,2018-01-04 00:27:05,2018-01-04 00:27:11,"6,092s",PASSED
+callTestCase,Firefox 57.0,,2018-01-04 00:27:11,2018-01-04 00:27:12,"1,348s",PASSED
+verifyElementText,Firefox 57.0,,2018-01-04 00:27:12,2018-01-04 00:27:14,"2,034s",PASSED
+closeBrowser,Firefox 57.0,,2018-01-04 00:27:14,2018-01-04 00:27:14,"0,296s",PASSED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 7,Firefox 57.0,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 00:27:14,2018-01-04 00:27:49,"35,099s",FAILED
+callTestCase,Firefox 57.0,,2018-01-04 00:27:14,2018-01-04 00:27:19,"4,301s",PASSED
+callTestCase,Firefox 57.0,,2018-01-04 00:27:19,2018-01-04 00:27:49,"30,796s",FAILED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 8,Firefox 57.0,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 00:27:50,2018-01-04 00:28:00,"10,287s",PASSED
+callTestCase,Firefox 57.0,,2018-01-04 00:27:50,2018-01-04 00:27:56,"6,073s",PASSED
+callTestCase,Firefox 57.0,,2018-01-04 00:27:56,2018-01-04 00:27:57,"1,393s",PASSED
+verifyElementText,Firefox 57.0,,2018-01-04 00:27:57,2018-01-04 00:28:00,"2,545s",PASSED
+closeBrowser,Firefox 57.0,,2018-01-04 00:28:00,2018-01-04 00:28:00,"0,266s",PASSED
+,,,,,,
+Test Cases/NRT/TC_02_CambiaEmail,Firefox 57.0,,2018-01-04 00:28:00,2018-01-04 00:28:39,"38,947s",FAILED
+openBrowser,Firefox 57.0,,2018-01-04 00:28:00,2018-01-04 00:28:02,"2,315s",PASSED
+callTestCase,Firefox 57.0,,2018-01-04 00:28:02,2018-01-04 00:28:08,"5,733s",PASSED
+callTestCase,Firefox 57.0,,2018-01-04 00:28:08,2018-01-04 00:28:39,"30,747s",FAILED

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifica il corretto comportamento della funzionalità di login</description>
+   <name>TC_01_LoginOk</name>
+   <tag>login</tag>
+   <comment></comment>
+   <testCaseGuid>8919e7da-f4ee-4e70-a993-5bff82eca43f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1faa3dc7-7bbd-48f1-95a8-09be55eff0b5</id>
+      <masked>false</masked>
+      <name>pUser</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0de12274-fe28-40bf-b63e-7241be63eb06</id>
+      <masked>true</masked>
+      <name>pPass</name>
+   </variable>
+</TestCaseEntity>

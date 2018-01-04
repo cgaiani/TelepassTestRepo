@@ -2,4 +2,9 @@
 <GlobalVariableEntities>
    <description></description>
    <tag></tag>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://www.telepass.it'</initValue>
+      <name>G_HomeURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

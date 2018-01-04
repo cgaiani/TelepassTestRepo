@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,,,2018-01-04 14:52:07,2018-01-04 14:53:52,"1m - 45,472s",FAILED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 1,,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 14:52:07,2018-01-04 14:52:23,"15,794s",FAILED
+callTestCase,,,2018-01-04 14:52:08,2018-01-04 14:52:23,"15,181s",FAILED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 2,,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 14:52:23,2018-01-04 14:52:34,"10,567s",FAILED
+callTestCase,,,2018-01-04 14:52:23,2018-01-04 14:52:34,"10,557s",FAILED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 3,,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 14:52:34,2018-01-04 14:52:44,"10,572s",FAILED
+callTestCase,,,2018-01-04 14:52:34,2018-01-04 14:52:44,"10,554s",FAILED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 4,,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 14:52:44,2018-01-04 14:52:56,"11,520s",FAILED
+callTestCase,,,2018-01-04 14:52:44,2018-01-04 14:52:56,"11,515s",FAILED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 5,,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 14:52:56,2018-01-04 14:53:07,"11,407s",FAILED
+callTestCase,,,2018-01-04 14:52:56,2018-01-04 14:53:07,"11,399s",FAILED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 6,,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 14:53:07,2018-01-04 14:53:19,"11,428s",FAILED
+callTestCase,,,2018-01-04 14:53:07,2018-01-04 14:53:19,"11,422s",FAILED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 7,,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 14:53:19,2018-01-04 14:53:29,"10,531s",FAILED
+callTestCase,,,2018-01-04 14:53:19,2018-01-04 14:53:29,"10,523s",FAILED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 8,,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 14:53:29,2018-01-04 14:53:41,"11,418s",FAILED
+callTestCase,,,2018-01-04 14:53:29,2018-01-04 14:53:41,"11,412s",FAILED
+,,,,,,
+Test Cases/NRT/TC_02_CambiaEmail,,,2018-01-04 14:53:41,2018-01-04 14:53:52,"11,464s",FAILED
+openBrowser,,,2018-01-04 14:53:41,2018-01-04 14:53:52,"11,341s",FAILED

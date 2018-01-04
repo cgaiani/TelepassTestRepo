@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="35" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="1" failures="0" errors="0" time="35" timestamp="2018-01-02 18:01:51" hostname="Claudio - ASUS-HOME.lan" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Claudio\\Katalon Studio\\TelepassTest\\Reports\\TestSuite1\\20180102_180144"/>
+         <property name="logFiles" value="C:\\Users\\Claudio\\Katalon Studio\\TelepassTest\\Reports\\TestSuite1\\20180102_180144\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Claudio - ASUS-HOME.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.84"/>
+         <property name="hostAddress" value="192.168.1.80"/>
+         <property name="sessionId" value="766cebc93b794e945cdd025b023bc93e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk" classname="Test Cases/NRT/TC_01_LoginOk" status="PASSED">
+         <system-out><![CDATA[2018-01-02 18:01:52 - [TEST_CASE][PASSED] - Test Cases/NRT/TC_01_LoginOk: Test Cases/NRT/TC_01_LoginOk
+
+2018-01-02 18:01:53 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-02 18:01:53 - [TEST_CASE][PASSED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage
+
+2018-01-02 18:01:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-02 18:02:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-02 18:02:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.telepass.it' successfully
+
+2018-01-02 18:02:11 - [MESSAGE][PASSED] - Navigate to 'http://www.telepass.it' successfully
+
+2018-01-02 18:02:11 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-02 18:02:11 - [MESSAGE][PASSED] - Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-02 18:02:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-02 18:02:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/FunzioniBase/fLogin' successfully
+
+2018-01-02 18:02:12 - [TEST_CASE][PASSED] - Test Cases/FunzioniBase/fLogin: Test Cases/FunzioniBase/fLogin
+
+2018-01-02 18:02:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Telepass la soluzione di pagam/span_Accedi' is clicked on
+
+2018-01-02 18:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Telepass la soluzione di pagam/span_Accedi' is clicked on
+
+2018-01-02 18:02:14 - [TEST_STEP][PASSED] - setText: Text 'cgaiani' is set on object 'Object Repository/Page_Telepass.it - ACCEDI A TELEPAS/input_username'
+
+2018-01-02 18:02:14 - [MESSAGE][PASSED] - Text 'cgaiani' is set on object 'Object Repository/Page_Telepass.it - ACCEDI A TELEPAS/input_username'
+
+2018-01-02 18:02:14 - [TEST_STEP][PASSED] - setText: Text 'alice123' is set on object 'Object Repository/Page_Telepass.it - ACCEDI A TELEPAS/input_password'
+
+2018-01-02 18:02:15 - [MESSAGE][PASSED] - Text 'alice123' is set on object 'Object Repository/Page_Telepass.it - ACCEDI A TELEPAS/input_password'
+
+2018-01-02 18:02:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Telepass.it - ACCEDI A TELEPAS/button_ACCEDI' is clicked on
+
+2018-01-02 18:02:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Telepass.it - ACCEDI A TELEPAS/button_ACCEDI' is clicked on
+
+2018-01-02 18:02:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FunzioniBase/fLogin' successfully
+
+2018-01-02 18:02:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Telepass.it Telepass S.p.A./span_CLAUDIO GAIANI' are matched.
+
+2018-01-02 18:02:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Telepass.it Telepass S.p.A./span_CLAUDIO GAIANI' are matched.
+
+2018-01-02 18:02:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-02 18:02:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-02 18:01:51 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/NRT/TC_01_LoginOk]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

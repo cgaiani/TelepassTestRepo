@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Chrome 58.0.3029.110,,2018-01-02 18:03:24,2018-01-02 18:03:55,"30,974s",FAILED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk,Chrome 58.0.3029.110,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-02 18:03:25,2018-01-02 18:03:52,"26,928s",FAILED
+callTestCase,Chrome 58.0.3029.110,,2018-01-02 18:03:26,2018-01-02 18:03:42,"16,017s",PASSED
+callTestCase,Chrome 58.0.3029.110,,2018-01-02 18:03:42,2018-01-02 18:03:46,"3,307s",PASSED
+verifyElementText,Chrome 58.0.3029.110,,2018-01-02 18:03:46,2018-01-02 18:03:52,"6,372s",FAILED

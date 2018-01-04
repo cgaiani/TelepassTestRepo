@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Chrome 63.0.3239.84,,2018-01-04 15:55:44,2018-01-04 15:57:57,"2m - 12,438s",FAILED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 1,Chrome 63.0.3239.84,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 15:55:45,2018-01-04 15:56:24,"39,041s",FAILED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:55:45,2018-01-04 15:55:51,"5,982s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:55:51,2018-01-04 15:55:53,"1,613s",PASSED
+verifyElementText,Chrome 63.0.3239.84,,2018-01-04 15:55:53,2018-01-04 15:56:24,"30,993s",FAILED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 2,Chrome 63.0.3239.84,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 15:56:24,2018-01-04 15:56:36,"12,096s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:56:24,2018-01-04 15:56:30,"6,771s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:56:30,2018-01-04 15:56:34,"3,936s",PASSED
+verifyElementText,Chrome 63.0.3239.84,,2018-01-04 15:56:34,2018-01-04 15:56:35,"0,546s",PASSED
+closeBrowser,Chrome 63.0.3239.84,,2018-01-04 15:56:35,2018-01-04 15:56:36,"0,835s",PASSED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 3,Chrome 63.0.3239.84,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 15:56:36,2018-01-04 15:56:47,"10,815s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:56:36,2018-01-04 15:56:42,"6,428s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:56:42,2018-01-04 15:56:45,"3,170s",PASSED
+verifyElementText,Chrome 63.0.3239.84,,2018-01-04 15:56:45,2018-01-04 15:56:46,"0,545s",PASSED
+closeBrowser,Chrome 63.0.3239.84,,2018-01-04 15:56:46,2018-01-04 15:56:47,"0,666s",PASSED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 4,Chrome 63.0.3239.84,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 15:56:47,2018-01-04 15:56:58,"10,922s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:56:47,2018-01-04 15:56:53,"6,292s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:56:53,2018-01-04 15:56:56,"3,423s",PASSED
+verifyElementText,Chrome 63.0.3239.84,,2018-01-04 15:56:56,2018-01-04 15:56:57,"0,540s",PASSED
+closeBrowser,Chrome 63.0.3239.84,,2018-01-04 15:56:57,2018-01-04 15:56:58,"0,660s",PASSED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 5,Chrome 63.0.3239.84,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 15:56:58,2018-01-04 15:57:08,"10,463s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:56:58,2018-01-04 15:57:04,"6,071s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:57:04,2018-01-04 15:57:07,"3,188s",PASSED
+verifyElementText,Chrome 63.0.3239.84,,2018-01-04 15:57:07,2018-01-04 15:57:07,"0,544s",PASSED
+closeBrowser,Chrome 63.0.3239.84,,2018-01-04 15:57:07,2018-01-04 15:57:08,"0,652s",PASSED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 6,Chrome 63.0.3239.84,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 15:57:08,2018-01-04 15:57:19,"10,483s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:57:08,2018-01-04 15:57:14,"6,052s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:57:14,2018-01-04 15:57:17,"3,207s",PASSED
+verifyElementText,Chrome 63.0.3239.84,,2018-01-04 15:57:17,2018-01-04 15:57:18,"0,553s",PASSED
+closeBrowser,Chrome 63.0.3239.84,,2018-01-04 15:57:18,2018-01-04 15:57:19,"0,662s",PASSED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 7,Chrome 63.0.3239.84,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 15:57:19,2018-01-04 15:57:29,"10,552s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:57:19,2018-01-04 15:57:25,"6,221s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:57:25,2018-01-04 15:57:28,"3,120s",PASSED
+verifyElementText,Chrome 63.0.3239.84,,2018-01-04 15:57:28,2018-01-04 15:57:29,"0,542s",PASSED
+closeBrowser,Chrome 63.0.3239.84,,2018-01-04 15:57:29,2018-01-04 15:57:29,"0,662s",PASSED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk - Iteration 8,Chrome 63.0.3239.84,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-04 15:57:29,2018-01-04 15:57:40,"10,379s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:57:29,2018-01-04 15:57:35,"5,985s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:57:35,2018-01-04 15:57:39,"3,187s",PASSED
+verifyElementText,Chrome 63.0.3239.84,,2018-01-04 15:57:39,2018-01-04 15:57:39,"0,543s",PASSED
+closeBrowser,Chrome 63.0.3239.84,,2018-01-04 15:57:39,2018-01-04 15:57:40,"0,658s",PASSED
+,,,,,,
+Test Cases/NRT/TC_02_CambiaEmail,Chrome 63.0.3239.84,,2018-01-04 15:57:40,2018-01-04 15:57:57,"16,923s",PASSED
+openBrowser,Chrome 63.0.3239.84,,2018-01-04 15:57:40,2018-01-04 15:57:42,"1,892s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:57:42,2018-01-04 15:57:51,"8,727s",PASSED
+callTestCase,Chrome 63.0.3239.84,,2018-01-04 15:57:51,2018-01-04 15:57:53,"2,971s",PASSED
+click,Chrome 63.0.3239.84,,2018-01-04 15:57:53,2018-01-04 15:57:54,"0,589s",PASSED
+click,Chrome 63.0.3239.84,,2018-01-04 15:57:54,2018-01-04 15:57:54,"0,261s",PASSED
+click,Chrome 63.0.3239.84,,2018-01-04 15:57:54,2018-01-04 15:57:55,"0,700s",PASSED
+setText,Chrome 63.0.3239.84,,2018-01-04 15:57:55,2018-01-04 15:57:56,"0,615s",PASSED
+setText,Chrome 63.0.3239.84,,2018-01-04 15:57:56,2018-01-04 15:57:56,"0,115s",PASSED
+submit,Chrome 63.0.3239.84,,2018-01-04 15:57:56,2018-01-04 15:57:56,"0,283s",PASSED
+closeBrowser,Chrome 63.0.3239.84,,2018-01-04 15:57:56,2018-01-04 15:57:57,"0,651s",PASSED

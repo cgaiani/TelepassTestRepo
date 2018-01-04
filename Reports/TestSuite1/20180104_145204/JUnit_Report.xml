@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="105" tests="0" failures="9" errors="0">
+   <testsuite name="TestSuite1" tests="0" failures="9" errors="0" time="105" timestamp="2018-01-04 14:52:07" hostname="ASUS-HOME$ - ASUS-HOME.lan" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Claudio\\Katalon Studio\\TelepassTest\\Reports\\TestSuite1\\20180104_145204"/>
+         <property name="logFiles" value="C:\\Users\\Claudio\\Katalon Studio\\TelepassTest\\Reports\\TestSuite1\\20180104_145204\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS-HOME$ - ASUS-HOME.lan"/>
+         <property name="hostAddress" value="192.168.1.80"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+      </properties>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk - Iteration 1" classname="Test Cases/NRT/TC_01_LoginOk" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info>
+   1:           0x482933 - &lt;no info>
+   2:           0x445159 - &lt;no info>
+   3:           0x44c838 - &lt;no info>
+   4:           0x43026a - &lt;no info>
+   5:           0x40ba4e - &lt;no info>
+   6:           0x4119b9 - &lt;no info>
+   7:           0x6d2c89 - &lt;no info>
+   8:           0x426006 - &lt;no info>
+   9:           0x6cd490 - &lt;no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)"/>
+         <system-out><![CDATA[2018-01-04 14:52:07 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 1: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:08 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)
+
+2018-01-04 14:52:08 - [TEST_CASE][FAILED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:08 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:23 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:23 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)]]></system-out>
+         <system-err><![CDATA[2018-01-04 14:52:07 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 1: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk - Iteration 2" classname="Test Cases/NRT/TC_01_LoginOk" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info>
+   1:           0x482933 - &lt;no info>
+   2:           0x47a13a - &lt;no info>
+   3:           0x47abb0 - &lt;no info>
+   4:           0x44bb74 - &lt;no info>
+   5:           0x43026a - &lt;no info>
+   6:           0x40ba4e - &lt;no info>
+   7:           0x4119b9 - &lt;no info>
+   8:           0x6d2c89 - &lt;no info>
+   9:           0x426006 - &lt;no info>
+  10:           0x6cd490 - &lt;no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)"/>
+         <system-out><![CDATA[2018-01-04 14:52:23 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 2: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x47a13a - <no info>
+   3:           0x47abb0 - <no info>
+   4:           0x44bb74 - <no info>
+   5:           0x43026a - <no info>
+   6:           0x40ba4e - <no info>
+   7:           0x4119b9 - <no info>
+   8:           0x6d2c89 - <no info>
+   9:           0x426006 - <no info>
+  10:           0x6cd490 - <no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:23 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)
+
+2018-01-04 14:52:23 - [TEST_CASE][FAILED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x47a13a - <no info>
+   3:           0x47abb0 - <no info>
+   4:           0x44bb74 - <no info>
+   5:           0x43026a - <no info>
+   6:           0x40ba4e - <no info>
+   7:           0x4119b9 - <no info>
+   8:           0x6d2c89 - <no info>
+   9:           0x426006 - <no info>
+  10:           0x6cd490 - <no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:23 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x47a13a - <no info>
+   3:           0x47abb0 - <no info>
+   4:           0x44bb74 - <no info>
+   5:           0x43026a - <no info>
+   6:           0x40ba4e - <no info>
+   7:           0x4119b9 - <no info>
+   8:           0x6d2c89 - <no info>
+   9:           0x426006 - <no info>
+  10:           0x6cd490 - <no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:34 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x47a13a - <no info>
+   3:           0x47abb0 - <no info>
+   4:           0x44bb74 - <no info>
+   5:           0x43026a - <no info>
+   6:           0x40ba4e - <no info>
+   7:           0x4119b9 - <no info>
+   8:           0x6d2c89 - <no info>
+   9:           0x426006 - <no info>
+  10:           0x6cd490 - <no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:34 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)]]></system-out>
+         <system-err><![CDATA[2018-01-04 14:52:23 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 2: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x47a13a - <no info>
+   3:           0x47abb0 - <no info>
+   4:           0x44bb74 - <no info>
+   5:           0x43026a - <no info>
+   6:           0x40ba4e - <no info>
+   7:           0x4119b9 - <no info>
+   8:           0x6d2c89 - <no info>
+   9:           0x426006 - <no info>
+  10:           0x6cd490 - <no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk - Iteration 3" classname="Test Cases/NRT/TC_01_LoginOk" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info>
+   1:           0x482933 - &lt;no info>
+   2:           0x47a13a - &lt;no info>
+   3:           0x47abb0 - &lt;no info>
+   4:           0x44bb74 - &lt;no info>
+   5:           0x43026a - &lt;no info>
+   6:           0x40ba4e - &lt;no info>
+   7:           0x4119b9 - &lt;no info>
+   8:           0x6d2c89 - &lt;no info>
+   9:           0x426006 - &lt;no info>
+  10:           0x6cd490 - &lt;no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)"/>
+         <system-out><![CDATA[2018-01-04 14:52:34 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 3: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x47a13a - <no info>
+   3:           0x47abb0 - <no info>
+   4:           0x44bb74 - <no info>
+   5:           0x43026a - <no info>
+   6:           0x40ba4e - <no info>
+   7:           0x4119b9 - <no info>
+   8:           0x6d2c89 - <no info>
+   9:           0x426006 - <no info>
+  10:           0x6cd490 - <no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:34 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)
+
+2018-01-04 14:52:34 - [TEST_CASE][FAILED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x47a13a - <no info>
+   3:           0x47abb0 - <no info>
+   4:           0x44bb74 - <no info>
+   5:           0x43026a - <no info>
+   6:           0x40ba4e - <no info>
+   7:           0x4119b9 - <no info>
+   8:           0x6d2c89 - <no info>
+   9:           0x426006 - <no info>
+  10:           0x6cd490 - <no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:34 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x47a13a - <no info>
+   3:           0x47abb0 - <no info>
+   4:           0x44bb74 - <no info>
+   5:           0x43026a - <no info>
+   6:           0x40ba4e - <no info>
+   7:           0x4119b9 - <no info>
+   8:           0x6d2c89 - <no info>
+   9:           0x426006 - <no info>
+  10:           0x6cd490 - <no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:44 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x47a13a - <no info>
+   3:           0x47abb0 - <no info>
+   4:           0x44bb74 - <no info>
+   5:           0x43026a - <no info>
+   6:           0x40ba4e - <no info>
+   7:           0x4119b9 - <no info>
+   8:           0x6d2c89 - <no info>
+   9:           0x426006 - <no info>
+  10:           0x6cd490 - <no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:44 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)]]></system-out>
+         <system-err><![CDATA[2018-01-04 14:52:34 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 3: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x47a13a - <no info>
+   3:           0x47abb0 - <no info>
+   4:           0x44bb74 - <no info>
+   5:           0x43026a - <no info>
+   6:           0x40ba4e - <no info>
+   7:           0x4119b9 - <no info>
+   8:           0x6d2c89 - <no info>
+   9:           0x426006 - <no info>
+  10:           0x6cd490 - <no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk - Iteration 4" classname="Test Cases/NRT/TC_01_LoginOk" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info>
+   1:           0x482933 - &lt;no info>
+   2:           0x445159 - &lt;no info>
+   3:           0x44c838 - &lt;no info>
+   4:           0x43026a - &lt;no info>
+   5:           0x40ba4e - &lt;no info>
+   6:           0x4119b9 - &lt;no info>
+   7:           0x6d2c89 - &lt;no info>
+   8:           0x426006 - &lt;no info>
+   9:           0x6cd490 - &lt;no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)"/>
+         <system-out><![CDATA[2018-01-04 14:52:44 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 4: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:44 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)
+
+2018-01-04 14:52:44 - [TEST_CASE][FAILED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:44 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:56 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:56 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)]]></system-out>
+         <system-err><![CDATA[2018-01-04 14:52:44 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 4: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk - Iteration 5" classname="Test Cases/NRT/TC_01_LoginOk" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info>
+   1:           0x482933 - &lt;no info>
+   2:           0x445159 - &lt;no info>
+   3:           0x44c838 - &lt;no info>
+   4:           0x43026a - &lt;no info>
+   5:           0x40ba4e - &lt;no info>
+   6:           0x4119b9 - &lt;no info>
+   7:           0x6d2c89 - &lt;no info>
+   8:           0x426006 - &lt;no info>
+   9:           0x6cd490 - &lt;no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)"/>
+         <system-out><![CDATA[2018-01-04 14:52:56 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 5: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:56 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)
+
+2018-01-04 14:52:56 - [TEST_CASE][FAILED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:52:56 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:53:07 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:53:07 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)]]></system-out>
+         <system-err><![CDATA[2018-01-04 14:52:56 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 5: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk - Iteration 6" classname="Test Cases/NRT/TC_01_LoginOk" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info>
+   1:           0x482933 - &lt;no info>
+   2:           0x445159 - &lt;no info>
+   3:           0x44c838 - &lt;no info>
+   4:           0x43026a - &lt;no info>
+   5:           0x40ba4e - &lt;no info>
+   6:           0x4119b9 - &lt;no info>
+   7:           0x6d2c89 - &lt;no info>
+   8:           0x426006 - &lt;no info>
+   9:           0x6cd490 - &lt;no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)"/>
+         <system-out><![CDATA[2018-01-04 14:53:07 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 6: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:53:07 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)
+
+2018-01-04 14:53:07 - [TEST_CASE][FAILED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:53:07 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:53:19 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:53:19 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)]]></system-out>
+         <system-err><![CDATA[2018-01-04 14:53:07 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 6: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk - Iteration 7" classname="Test Cases/NRT/TC_01_LoginOk" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info>
+   1:           0x482933 - &lt;no info>
+   2:           0x47a13a - &lt;no info>
+   3:           0x47abb0 - &lt;no info>
+   4:           0x44bb74 - &lt;no info>
+   5:           0x43026a - &lt;no info>
+   6:           0x40ba4e - &lt;no info>
+   7:           0x4119b9 - &lt;no info>
+   8:           0x6d2c89 - &lt;no info>
+   9:           0x426006 - &lt;no info>
+  10:           0x6cd490 - &lt;no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)"/>
+         <system-out><![CDATA[2018-01-04 14:53:19 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 7: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x47a13a - <no info>
+   3:           0x47abb0 - <no info>
+   4:           0x44bb74 - <no info>
+   5:           0x43026a - <no info>
+   6:           0x40ba4e - <no info>
+   7:           0x4119b9 - <no info>
+   8:           0x6d2c89 - <no info>
+   9:           0x426006 - <no info>
+  10:           0x6cd490 - <no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:53:19 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)
+
+2018-01-04 14:53:19 - [TEST_CASE][FAILED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x47a13a - <no info>
+   3:           0x47abb0 - <no info>
+   4:           0x44bb74 - <no info>
+   5:           0x43026a - <no info>
+   6:           0x40ba4e - <no info>
+   7:           0x4119b9 - <no info>
+   8:           0x6d2c89 - <no info>
+   9:           0x426006 - <no info>
+  10:           0x6cd490 - <no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:53:19 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x47a13a - <no info>
+   3:           0x47abb0 - <no info>
+   4:           0x44bb74 - <no info>
+   5:           0x43026a - <no info>
+   6:           0x40ba4e - <no info>
+   7:           0x4119b9 - <no info>
+   8:           0x6d2c89 - <no info>
+   9:           0x426006 - <no info>
+  10:           0x6cd490 - <no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:53:29 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x47a13a - <no info>
+   3:           0x47abb0 - <no info>
+   4:           0x44bb74 - <no info>
+   5:           0x43026a - <no info>
+   6:           0x40ba4e - <no info>
+   7:           0x4119b9 - <no info>
+   8:           0x6d2c89 - <no info>
+   9:           0x426006 - <no info>
+  10:           0x6cd490 - <no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:53:29 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)]]></system-out>
+         <system-err><![CDATA[2018-01-04 14:53:19 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 7: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x47a13a - <no info>
+   3:           0x47abb0 - <no info>
+   4:           0x44bb74 - <no info>
+   5:           0x43026a - <no info>
+   6:           0x40ba4e - <no info>
+   7:           0x4119b9 - <no info>
+   8:           0x6d2c89 - <no info>
+   9:           0x426006 - <no info>
+  10:           0x6cd490 - <no info>
+  11:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk - Iteration 8" classname="Test Cases/NRT/TC_01_LoginOk" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info>
+   1:           0x482933 - &lt;no info>
+   2:           0x445159 - &lt;no info>
+   3:           0x44c838 - &lt;no info>
+   4:           0x43026a - &lt;no info>
+   5:           0x40ba4e - &lt;no info>
+   6:           0x4119b9 - &lt;no info>
+   7:           0x6d2c89 - &lt;no info>
+   8:           0x426006 - &lt;no info>
+   9:           0x6cd490 - &lt;no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)"/>
+         <system-out><![CDATA[2018-01-04 14:53:29 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 8: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:53:29 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)
+
+2018-01-04 14:53:29 - [TEST_CASE][FAILED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:53:29 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:53:41 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:53:41 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)]]></system-out>
+         <system-err><![CDATA[2018-01-04 14:53:29 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 8: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NRT/TC_02_CambiaEmail" classname="Test Cases/NRT/TC_02_CambiaEmail" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info>
+   1:           0x482933 - &lt;no info>
+   2:           0x445159 - &lt;no info>
+   3:           0x44c838 - &lt;no info>
+   4:           0x43026a - &lt;no info>
+   5:           0x40ba4e - &lt;no info>
+   6:           0x4119b9 - &lt;no info>
+   7:           0x6d2c89 - &lt;no info>
+   8:           0x426006 - &lt;no info>
+   9:           0x6cd490 - &lt;no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)"/>
+         <system-out><![CDATA[2018-01-04 14:53:41 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_02_CambiaEmail: Test Cases/NRT/TC_02_CambiaEmail FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:53:41 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)
+
+2018-01-04 14:53:52 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)]]></system-out>
+         <system-err><![CDATA[2018-01-04 14:53:41 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_02_CambiaEmail: Test Cases/NRT/TC_02_CambiaEmail FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-04 14:52:07 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)]]></system-out>
+      <system-err><![CDATA[2018-01-04 14:52:07 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffa8cfa1fe4 - BaseThreadInitThunk)]]></system-err>
+   </testsuite>
+</testsuites>

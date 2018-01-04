@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_02_CambiaEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>216d5eb1-d413-440e-b6a4-40274abd3605</testCaseGuid>
+   <variable>
+      <defaultValue>'cgaiani'</defaultValue>
+      <description></description>
+      <id>21c3f97b-4fd1-4acc-872d-944d311b0a90</id>
+      <masked>false</masked>
+      <name>pUser</name>
+   </variable>
+   <variable>
+      <defaultValue>'alice123'</defaultValue>
+      <description></description>
+      <id>020f21fd-e8f7-4efa-b821-3774642c131a</id>
+      <masked>true</masked>
+      <name>pPass</name>
+   </variable>
+</TestCaseEntity>

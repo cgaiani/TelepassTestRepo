@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_cambiaEmail</name>
+   <tag></tag>
+   <elementGuidId>7ca526ff-da2b-43f4-8493-dfe6a463d4bc</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>../riservata/clienteModificaDati.jsp?mode=prepara&amp;modificaCosa=postaElettronicaModifica</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+		 		          			cambia
+			          			</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;customDIV0&quot;)/table[@class=&quot;dati&quot;]/tbody[1]/tr[27]/td[1]/table[1]/tbody[1]/tr[1]/td[5]/a[2]</value>
+   </webElementProperties>
+</WebElementEntity>

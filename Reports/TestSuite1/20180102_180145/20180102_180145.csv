@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Firefox 57.0,,2018-01-02 18:02:33,2018-01-02 18:03:18,"44,921s",PASSED
+,,,,,,
+Test Cases/NRT/TC_01_LoginOk,Firefox 57.0,Verifica il corretto comportamento della funzionalit\u00E0 di login,2018-01-02 18:02:34,2018-01-02 18:03:18,"44,094s",PASSED
+callTestCase,Firefox 57.0,,2018-01-02 18:02:35,2018-01-02 18:03:03,"28,677s",PASSED
+callTestCase,Firefox 57.0,,2018-01-02 18:03:03,2018-01-02 18:03:09,"5,655s",PASSED
+verifyElementText,Firefox 57.0,,2018-01-02 18:03:09,2018-01-02 18:03:17,"7,881s",PASSED
+closeBrowser,Firefox 57.0,,2018-01-02 18:03:17,2018-01-02 18:03:18,"0,681s",PASSED

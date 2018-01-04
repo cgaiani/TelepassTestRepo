@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="169" tests="4" failures="5" errors="0">
+   <testsuite name="TestSuite1" tests="4" failures="5" errors="0" time="169" timestamp="2018-01-04 00:25:49" hostname="Claudio - ASUS-HOME.lan" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Claudio\\Katalon Studio\\TelepassTest\\Reports\\TestSuite1\\20180104_002547"/>
+         <property name="logFiles" value="C:\\Users\\Claudio\\Katalon Studio\\TelepassTest\\Reports\\TestSuite1\\20180104_002547\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Claudio\\Katalon Studio\\TelepassTest\\Reports\\TestSuite1\\20180104_002547\\1515022009625.png, C:\\Users\\Claudio\\Katalon Studio\\TelepassTest\\Reports\\TestSuite1\\20180104_002547\\1515022069873.png, C:\\Users\\Claudio\\Katalon Studio\\TelepassTest\\Reports\\TestSuite1\\20180104_002547\\1515022119239.png"/>
+         <property name="hostName" value="Claudio - ASUS-HOME.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="192.168.1.80"/>
+         <property name="sessionId" value="f8887dc2-c643-40d2-9e0c-03aa8217eb7b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk - Iteration 1" classname="Test Cases/NRT/TC_01_LoginOk" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NRT/TC_01_LoginOk FAILED because (of) Verify element text of test object 'Object Repository/Page_homeContratto/NomeUtenteLoggato' FAILED. (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12516, moz:profile: C:\Users\Claudio\AppData\Lo..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2bff36a3-d0ab-4fb3-8657-790b7a6592d4
+*** Element info: {Using=xpath, value=//*[@class = 'cliente-nome']})"/>
+         <system-out><![CDATA[2018-01-04 00:25:50 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 1: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Verify element text of test object 'Object Repository/Page_homeContratto/NomeUtenteLoggato' FAILED. (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12516, moz:profile: C:\Users\Claudio\AppData\Lo..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2bff36a3-d0ab-4fb3-8657-790b7a6592d4
+*** Element info: {Using=xpath, value=//*[@class = 'cliente-nome']})
+
+2018-01-04 00:25:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-04 00:25:50 - [TEST_CASE][PASSED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage
+
+2018-01-04 00:25:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-04 00:25:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-04 00:25:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.telepass.it' successfully
+
+2018-01-04 00:25:55 - [MESSAGE][PASSED] - Navigate to 'http://www.telepass.it' successfully
+
+2018-01-04 00:25:55 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-04 00:25:56 - [MESSAGE][PASSED] - Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-04 00:25:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-04 00:25:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/FunzioniBase/fLogin' successfully
+
+2018-01-04 00:25:56 - [TEST_CASE][PASSED] - Test Cases/FunzioniBase/fLogin: Test Cases/FunzioniBase/fLogin
+
+2018-01-04 00:25:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_home/span_Accedi' is clicked on
+
+2018-01-04 00:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_home/span_Accedi' is clicked on
+
+2018-01-04 00:25:57 - [TEST_STEP][PASSED] - setText: Text 'cgaiani' is set on object 'Object Repository/Page_login/input_username'
+
+2018-01-04 00:25:57 - [MESSAGE][PASSED] - Text 'cgaiani' is set on object 'Object Repository/Page_login/input_username'
+
+2018-01-04 00:25:57 - [TEST_STEP][PASSED] - setText: Text 'alice1234' is set on object 'Object Repository/Page_login/input_password'
+
+2018-01-04 00:25:57 - [MESSAGE][PASSED] - Text 'alice1234' is set on object 'Object Repository/Page_login/input_password'
+
+2018-01-04 00:25:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_login/button_ACCEDI' is clicked on
+
+2018-01-04 00:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_login/button_ACCEDI' is clicked on
+
+2018-01-04 00:25:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FunzioniBase/fLogin' successfully
+
+2018-01-04 00:25:57 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Page_homeContratto/NomeUtenteLoggato' FAILED. (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12516, moz:profile: C:\Users\Claudio\AppData\Lo..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2bff36a3-d0ab-4fb3-8657-790b7a6592d4
+*** Element info: {Using=xpath, value=//*[@class = 'cliente-nome']})
+
+2018-01-04 00:26:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-01-04 00:26:04 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_homeContratto/NomeUtenteLoggato' FAILED. (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12516, moz:profile: C:\Users\Claudio\AppData\Lo..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2bff36a3-d0ab-4fb3-8657-790b7a6592d4
+*** Element info: {Using=xpath, value=//*[@class = 'cliente-nome']})]]></system-out>
+         <system-err><![CDATA[2018-01-04 00:25:50 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 1: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Verify element text of test object 'Object Repository/Page_homeContratto/NomeUtenteLoggato' FAILED. (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12516, moz:profile: C:\Users\Claudio\AppData\Lo..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2bff36a3-d0ab-4fb3-8657-790b7a6592d4
+*** Element info: {Using=xpath, value=//*[@class = 'cliente-nome']})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk - Iteration 2" classname="Test Cases/NRT/TC_01_LoginOk" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12516, moz:profile: C:\Users\Claudio\AppData\Lo..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2bff36a3-d0ab-4fb3-8657-790b7a6592d4)"/>
+         <system-out><![CDATA[2018-01-04 00:26:04 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 2: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12516, moz:profile: C:\Users\Claudio\AppData\Lo..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2bff36a3-d0ab-4fb3-8657-790b7a6592d4)
+
+2018-01-04 00:26:04 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)
+
+2018-01-04 00:26:04 - [TEST_CASE][FAILED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12516, moz:profile: C:\Users\Claudio\AppData\Lo..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2bff36a3-d0ab-4fb3-8657-790b7a6592d4)
+
+2018-01-04 00:26:04 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12516, moz:profile: C:\Users\Claudio\AppData\Lo..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2bff36a3-d0ab-4fb3-8657-790b7a6592d4)
+
+2018-01-04 00:26:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-01-04 00:26:04 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12516, moz:profile: C:\Users\Claudio\AppData\Lo..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2bff36a3-d0ab-4fb3-8657-790b7a6592d4)
+
+2018-01-04 00:26:04 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/FunzioniBase/fNavigaHomePage' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' failed)]]></system-out>
+         <system-err><![CDATA[2018-01-04 00:26:04 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 2: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12516, moz:profile: C:\Users\Claudio\AppData\Lo..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2bff36a3-d0ab-4fb3-8657-790b7a6592d4)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk - Iteration 3" classname="Test Cases/NRT/TC_01_LoginOk" status="PASSED">
+         <system-out><![CDATA[2018-01-04 00:26:04 - [TEST_CASE][PASSED] - Test Cases/NRT/TC_01_LoginOk - Iteration 3: Test Cases/NRT/TC_01_LoginOk
+
+2018-01-04 00:26:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-04 00:26:04 - [TEST_CASE][PASSED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage
+
+2018-01-04 00:26:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-04 00:26:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-04 00:26:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.telepass.it' successfully
+
+2018-01-04 00:26:10 - [MESSAGE][PASSED] - Navigate to 'http://www.telepass.it' successfully
+
+2018-01-04 00:26:10 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-04 00:26:10 - [MESSAGE][PASSED] - Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-04 00:26:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-04 00:26:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/FunzioniBase/fLogin' successfully
+
+2018-01-04 00:26:10 - [TEST_CASE][PASSED] - Test Cases/FunzioniBase/fLogin: Test Cases/FunzioniBase/fLogin
+
+2018-01-04 00:26:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_home/span_Accedi' is clicked on
+
+2018-01-04 00:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_home/span_Accedi' is clicked on
+
+2018-01-04 00:26:11 - [TEST_STEP][PASSED] - setText: Text 'cgaiani' is set on object 'Object Repository/Page_login/input_username'
+
+2018-01-04 00:26:11 - [MESSAGE][PASSED] - Text 'cgaiani' is set on object 'Object Repository/Page_login/input_username'
+
+2018-01-04 00:26:11 - [TEST_STEP][PASSED] - setText: Text 'alice123' is set on object 'Object Repository/Page_login/input_password'
+
+2018-01-04 00:26:11 - [MESSAGE][PASSED] - Text 'alice123' is set on object 'Object Repository/Page_login/input_password'
+
+2018-01-04 00:26:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_login/button_ACCEDI' is clicked on
+
+2018-01-04 00:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_login/button_ACCEDI' is clicked on
+
+2018-01-04 00:26:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FunzioniBase/fLogin' successfully
+
+2018-01-04 00:26:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_homeContratto/NomeUtenteLoggato' are matched.
+
+2018-01-04 00:26:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_homeContratto/NomeUtenteLoggato' are matched.
+
+2018-01-04 00:26:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-04 00:26:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk - Iteration 4" classname="Test Cases/NRT/TC_01_LoginOk" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)"/>
+         <system-out><![CDATA[2018-01-04 00:26:14 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 4: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)
+
+2018-01-04 00:26:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-04 00:26:14 - [TEST_CASE][PASSED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage
+
+2018-01-04 00:26:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-04 00:26:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-04 00:26:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.telepass.it' successfully
+
+2018-01-04 00:26:18 - [MESSAGE][PASSED] - Navigate to 'http://www.telepass.it' successfully
+
+2018-01-04 00:26:18 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-04 00:26:18 - [MESSAGE][PASSED] - Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-04 00:26:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-04 00:26:18 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/FunzioniBase/fLogin' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fLogin' failed)
+
+2018-01-04 00:26:18 - [TEST_CASE][FAILED] - Test Cases/FunzioniBase/fLogin: Test Cases/FunzioniBase/fLogin FAILED because (of) Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)
+
+2018-01-04 00:26:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_home/span_Accedi' is clicked on
+
+2018-01-04 00:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_home/span_Accedi' is clicked on
+
+2018-01-04 00:26:19 - [TEST_STEP][FAILED] - setText: Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)
+
+2018-01-04 00:26:50 - [MESSAGE][FAILED] - Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)
+[[ATTACHMENT|C:\\Users\\Claudio\\Katalon Studio\\TelepassTest\\Reports\\TestSuite1\\20180104_002547\\1515022009625.png]]
+
+2018-01-04 00:26:50 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/FunzioniBase/fLogin' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fLogin' failed)]]></system-out>
+         <system-err><![CDATA[2018-01-04 00:26:14 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 4: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk - Iteration 5" classname="Test Cases/NRT/TC_01_LoginOk" status="PASSED">
+         <system-out><![CDATA[2018-01-04 00:26:50 - [TEST_CASE][PASSED] - Test Cases/NRT/TC_01_LoginOk - Iteration 5: Test Cases/NRT/TC_01_LoginOk
+
+2018-01-04 00:26:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-04 00:26:50 - [TEST_CASE][PASSED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage
+
+2018-01-04 00:26:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-04 00:26:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-01-04 00:26:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-04 00:26:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.telepass.it' successfully
+
+2018-01-04 00:26:56 - [MESSAGE][PASSED] - Navigate to 'http://www.telepass.it' successfully
+
+2018-01-04 00:26:56 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-04 00:26:56 - [MESSAGE][PASSED] - Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-04 00:26:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-04 00:26:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/FunzioniBase/fLogin' successfully
+
+2018-01-04 00:26:56 - [TEST_CASE][PASSED] - Test Cases/FunzioniBase/fLogin: Test Cases/FunzioniBase/fLogin
+
+2018-01-04 00:26:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_home/span_Accedi' is clicked on
+
+2018-01-04 00:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_home/span_Accedi' is clicked on
+
+2018-01-04 00:26:56 - [TEST_STEP][PASSED] - setText: Text 'cgaiani' is set on object 'Object Repository/Page_login/input_username'
+
+2018-01-04 00:26:56 - [MESSAGE][PASSED] - Text 'cgaiani' is set on object 'Object Repository/Page_login/input_username'
+
+2018-01-04 00:26:56 - [TEST_STEP][PASSED] - setText: Text 'alice123' is set on object 'Object Repository/Page_login/input_password'
+
+2018-01-04 00:26:56 - [MESSAGE][PASSED] - Text 'alice123' is set on object 'Object Repository/Page_login/input_password'
+
+2018-01-04 00:26:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_login/button_ACCEDI' is clicked on
+
+2018-01-04 00:27:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_login/button_ACCEDI' is clicked on
+
+2018-01-04 00:27:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FunzioniBase/fLogin' successfully
+
+2018-01-04 00:27:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_homeContratto/NomeUtenteLoggato' are matched.
+
+2018-01-04 00:27:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_homeContratto/NomeUtenteLoggato' are matched.
+
+2018-01-04 00:27:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-04 00:27:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk - Iteration 6" classname="Test Cases/NRT/TC_01_LoginOk" status="PASSED">
+         <system-out><![CDATA[2018-01-04 00:27:05 - [TEST_CASE][PASSED] - Test Cases/NRT/TC_01_LoginOk - Iteration 6: Test Cases/NRT/TC_01_LoginOk
+
+2018-01-04 00:27:05 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-04 00:27:05 - [TEST_CASE][PASSED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage
+
+2018-01-04 00:27:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-04 00:27:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-04 00:27:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.telepass.it' successfully
+
+2018-01-04 00:27:11 - [MESSAGE][PASSED] - Navigate to 'http://www.telepass.it' successfully
+
+2018-01-04 00:27:11 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-04 00:27:11 - [MESSAGE][PASSED] - Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-04 00:27:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-04 00:27:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/FunzioniBase/fLogin' successfully
+
+2018-01-04 00:27:11 - [TEST_CASE][PASSED] - Test Cases/FunzioniBase/fLogin: Test Cases/FunzioniBase/fLogin
+
+2018-01-04 00:27:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_home/span_Accedi' is clicked on
+
+2018-01-04 00:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_home/span_Accedi' is clicked on
+
+2018-01-04 00:27:11 - [TEST_STEP][PASSED] - setText: Text 'cgaiani' is set on object 'Object Repository/Page_login/input_username'
+
+2018-01-04 00:27:11 - [MESSAGE][PASSED] - Text 'cgaiani' is set on object 'Object Repository/Page_login/input_username'
+
+2018-01-04 00:27:11 - [TEST_STEP][PASSED] - setText: Text 'alice123' is set on object 'Object Repository/Page_login/input_password'
+
+2018-01-04 00:27:11 - [MESSAGE][PASSED] - Text 'alice123' is set on object 'Object Repository/Page_login/input_password'
+
+2018-01-04 00:27:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_login/button_ACCEDI' is clicked on
+
+2018-01-04 00:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_login/button_ACCEDI' is clicked on
+
+2018-01-04 00:27:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FunzioniBase/fLogin' successfully
+
+2018-01-04 00:27:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_homeContratto/NomeUtenteLoggato' are matched.
+
+2018-01-04 00:27:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_homeContratto/NomeUtenteLoggato' are matched.
+
+2018-01-04 00:27:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-04 00:27:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk - Iteration 7" classname="Test Cases/NRT/TC_01_LoginOk" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)"/>
+         <system-out><![CDATA[2018-01-04 00:27:14 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 7: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)
+
+2018-01-04 00:27:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-04 00:27:14 - [TEST_CASE][PASSED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage
+
+2018-01-04 00:27:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-04 00:27:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-04 00:27:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.telepass.it' successfully
+
+2018-01-04 00:27:18 - [MESSAGE][PASSED] - Navigate to 'http://www.telepass.it' successfully
+
+2018-01-04 00:27:18 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-04 00:27:19 - [MESSAGE][PASSED] - Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-04 00:27:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-04 00:27:19 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/FunzioniBase/fLogin' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fLogin' failed)
+
+2018-01-04 00:27:19 - [TEST_CASE][FAILED] - Test Cases/FunzioniBase/fLogin: Test Cases/FunzioniBase/fLogin FAILED because (of) Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)
+
+2018-01-04 00:27:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_home/span_Accedi' is clicked on
+
+2018-01-04 00:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_home/span_Accedi' is clicked on
+
+2018-01-04 00:27:19 - [TEST_STEP][FAILED] - setText: Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)
+
+2018-01-04 00:27:49 - [MESSAGE][FAILED] - Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)
+[[ATTACHMENT|C:\\Users\\Claudio\\Katalon Studio\\TelepassTest\\Reports\\TestSuite1\\20180104_002547\\1515022069873.png]]
+
+2018-01-04 00:27:49 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/FunzioniBase/fLogin' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fLogin' failed)]]></system-out>
+         <system-err><![CDATA[2018-01-04 00:27:14 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_01_LoginOk - Iteration 7: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NRT/TC_01_LoginOk - Iteration 8" classname="Test Cases/NRT/TC_01_LoginOk" status="PASSED">
+         <system-out><![CDATA[2018-01-04 00:27:50 - [TEST_CASE][PASSED] - Test Cases/NRT/TC_01_LoginOk - Iteration 8: Test Cases/NRT/TC_01_LoginOk
+
+2018-01-04 00:27:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-04 00:27:50 - [TEST_CASE][PASSED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage
+
+2018-01-04 00:27:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-04 00:27:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-01-04 00:27:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-04 00:27:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.telepass.it' successfully
+
+2018-01-04 00:27:56 - [MESSAGE][PASSED] - Navigate to 'http://www.telepass.it' successfully
+
+2018-01-04 00:27:56 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-04 00:27:56 - [MESSAGE][PASSED] - Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-04 00:27:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-04 00:27:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/FunzioniBase/fLogin' successfully
+
+2018-01-04 00:27:56 - [TEST_CASE][PASSED] - Test Cases/FunzioniBase/fLogin: Test Cases/FunzioniBase/fLogin
+
+2018-01-04 00:27:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_home/span_Accedi' is clicked on
+
+2018-01-04 00:27:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_home/span_Accedi' is clicked on
+
+2018-01-04 00:27:56 - [TEST_STEP][PASSED] - setText: Text 'cgaiani' is set on object 'Object Repository/Page_login/input_username'
+
+2018-01-04 00:27:56 - [MESSAGE][PASSED] - Text 'cgaiani' is set on object 'Object Repository/Page_login/input_username'
+
+2018-01-04 00:27:56 - [TEST_STEP][PASSED] - setText: Text 'alice123' is set on object 'Object Repository/Page_login/input_password'
+
+2018-01-04 00:27:56 - [MESSAGE][PASSED] - Text 'alice123' is set on object 'Object Repository/Page_login/input_password'
+
+2018-01-04 00:27:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_login/button_ACCEDI' is clicked on
+
+2018-01-04 00:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_login/button_ACCEDI' is clicked on
+
+2018-01-04 00:27:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FunzioniBase/fLogin' successfully
+
+2018-01-04 00:27:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_homeContratto/NomeUtenteLoggato' are matched.
+
+2018-01-04 00:28:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_homeContratto/NomeUtenteLoggato' are matched.
+
+2018-01-04 00:28:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-01-04 00:28:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NRT/TC_02_CambiaEmail" classname="Test Cases/NRT/TC_02_CambiaEmail" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)"/>
+         <system-out><![CDATA[2018-01-04 00:28:00 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_02_CambiaEmail: Test Cases/NRT/TC_02_CambiaEmail FAILED because (of) Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)
+
+2018-01-04 00:28:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-04 00:28:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-04 00:28:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-04 00:28:02 - [TEST_CASE][PASSED] - Test Cases/FunzioniBase/fNavigaHomePage: Test Cases/FunzioniBase/fNavigaHomePage
+
+2018-01-04 00:28:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-01-04 00:28:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-01-04 00:28:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-01-04 00:28:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.telepass.it' successfully
+
+2018-01-04 00:28:07 - [MESSAGE][PASSED] - Navigate to 'http://www.telepass.it' successfully
+
+2018-01-04 00:28:07 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-04 00:28:08 - [MESSAGE][PASSED] - Switched to window with title: 'Telepass: la soluzione di pagamento per la tua mobilità'
+
+2018-01-04 00:28:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FunzioniBase/fNavigaHomePage' successfully
+
+2018-01-04 00:28:08 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/FunzioniBase/fLogin' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fLogin' failed)
+
+2018-01-04 00:28:08 - [TEST_CASE][FAILED] - Test Cases/FunzioniBase/fLogin: Test Cases/FunzioniBase/fLogin FAILED because (of) Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)
+
+2018-01-04 00:28:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_home/span_Accedi' is clicked on
+
+2018-01-04 00:28:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_home/span_Accedi' is clicked on
+
+2018-01-04 00:28:08 - [TEST_STEP][FAILED] - setText: Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)
+
+2018-01-04 00:28:39 - [MESSAGE][FAILED] - Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)
+[[ATTACHMENT|C:\\Users\\Claudio\\Katalon Studio\\TelepassTest\\Reports\\TestSuite1\\20180104_002547\\1515022119239.png]]
+
+2018-01-04 00:28:39 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/FunzioniBase/fLogin' (Root cause: Call Test Case 'Test Cases/FunzioniBase/fLogin' failed)]]></system-out>
+         <system-err><![CDATA[2018-01-04 00:28:00 - [TEST_CASE][FAILED] - Test Cases/NRT/TC_02_CambiaEmail: Test Cases/NRT/TC_02_CambiaEmail FAILED because (of) Unable to set text 'cgaiani' of object 'Object Repository/Page_login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_login/input_username' located by 'By.xpath: //input[count(. | //*[@id = 'username']) = count(//*[@id = 'username'])][count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-04 00:25:49 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Verify element text of test object 'Object Repository/Page_homeContratto/NomeUtenteLoggato' FAILED. (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12516, moz:profile: C:\Users\Claudio\AppData\Lo..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2bff36a3-d0ab-4fb3-8657-790b7a6592d4
+*** Element info: {Using=xpath, value=//*[@class = 'cliente-nome']})]]></system-out>
+      <system-err><![CDATA[2018-01-04 00:25:49 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/NRT/TC_01_LoginOk FAILED because (of) Verify element text of test object 'Object Repository/Page_homeContratto/NomeUtenteLoggato' FAILED. (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ASUS-HOME', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12516, moz:profile: C:\Users\Claudio\AppData\Lo..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2bff36a3-d0ab-4fb3-8657-790b7a6592d4
+*** Element info: {Using=xpath, value=//*[@class = 'cliente-nome']})]]></system-err>
+   </testsuite>
+</testsuites>
