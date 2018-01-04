@@ -56,4 +56,10 @@
          <variableId>020f21fd-e8f7-4efa-b821-3774642c131a</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>5ccf955c-33f2-4bf4-b588-a91298f58473</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NRT/TC_03</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
